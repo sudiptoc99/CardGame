@@ -106,7 +106,8 @@ void shuffle(Card c[])
 	}
 }
 
-int msleep(unsigned long milisec)   
+int msleep(unsigned long milisec) //This function has 
+				  //taken from stackoverflow
 {   
     struct timespec req={0};   
     time_t sec=(int)(milisec/1000);   
